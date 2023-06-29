@@ -17,7 +17,11 @@ Instructions on how to run the test:
 Steps: 
 
 npm install in the terminal
+
 Start the API server
+
 Copy the Server Address into the config.js file in the API_URL field and save
+
 Use command npx jest tests/(Insert specific test here. Example: deleteHandlers.test.js)
+
 Execute command and run the tests
