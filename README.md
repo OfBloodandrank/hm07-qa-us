@@ -25,7 +25,7 @@ Copy and Add the Server Address into the config.js file in the API_URL field and
 
 Use command npx jest tests/(Insert specific test here. Example: deleteHandlers.test.js)
 
-Execute command and run all tests (GET, POST, PUT, and DELETE) tests
+Execute command and run all tests (GET, POST, PUT, and DELETE) 
 
 ///
 
