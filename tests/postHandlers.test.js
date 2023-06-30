@@ -10,6 +10,7 @@ const requestBody = {
     ]
 }
 
+//* Post Test 1 checks that creating a new order returns a 200 status code /*
 test('Status Code Should Be 201', async () => {
 	let actualStatusCode;
     try {
@@ -27,7 +28,7 @@ test('Status Code Should Be 201', async () => {
 	expect(actualStatusCode).toBe(201);
 });
 
-
+//* Post Test 2 checks that creating a new order returns the correct courier service that can service the order /*
 test('Response Body Should Contain Order and Go', async () => {
 	let actualBodyResponse;
     try {
